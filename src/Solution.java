@@ -2,18 +2,20 @@ import java.util.Scanner;
 
 public class Solution 
 {
-    public static int flagstones(int m, int n, int a)
+    public static double flagstones(long m, long n, long a)
     {
-        return ((n + a - 1) / a) * ((m + a - 1) / a);
+        double output = ((n + a - 1) / a) * ((m + a - 1) / a);
+        
+        return output;
     }
 
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
         
-        int n = input.nextInt();
-        int m = input.nextInt();
-        int a = input.nextInt();
+        long n = input.nextInt();
+        long m = input.nextInt();
+        long a = input.nextInt();
         
         input.close();
         
