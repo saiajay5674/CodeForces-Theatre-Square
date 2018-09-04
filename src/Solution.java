@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Solution 
 {
-    public static double flagstones(long m, long n, long a)
+    public static long flagstones(long m, long n, long a)
     {
-        double output = ((n + a - 1) / a) * ((m + a - 1) / a);
+        long output = ((n + a - 1) / a) * ((m + a - 1) / a);
         
         return output;
     }
